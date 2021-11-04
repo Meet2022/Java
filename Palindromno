@@ -1,0 +1,27 @@
+import java.util.*;
+import java.util.scanner;
+
+class palno{
+	public static void main(String args[])
+	{
+	  int ans , Sum = 0,temp;
+	  int no = 53435;
+	
+	  temp = no;
+  	while ( no > 0 )
+  	{
+		  ans = no%10;
+		  sum = (sum * 10) + ans;
+		  no = no/10;
+	  }
+		
+		if(temp == sum)
+	 	{
+			System.out.println(temp + "Is Palindrom no...");
+		}
+		else 
+		{
+			System.out.println(temp + "Is Not Palindrom no...");
+		}
+	}
+}
